@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const SideBar = ({ open, onClose }) => {
   return (
-    <div style={{marginTop:'200px', padding:'30px' , position:'fixed'}}>
+    <div style={{marginTop:'200px', padding:'30px' }}>
       <List>
         <ListItem button component={Link} to="/home/2" onClick={onClose}>
           <ListItemText primary="PROFILE" style={{ color: "#fff" }} />
