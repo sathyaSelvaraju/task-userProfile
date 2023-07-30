@@ -1,5 +1,5 @@
 import React from "react";
-import { Drawer, Divider, List, ListItem, ListItemText } from "@mui/material";
+import { Divider, List, ListItem, ListItemText } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const SideBar = ({ open, onClose }) => {
